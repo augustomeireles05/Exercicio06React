@@ -1,0 +1,9 @@
+.calculator {
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;
+    overflow: hidden; /*Evitar qualquer barra lateral na calculadora*/
+    display: grid;
+    grid-template-columns: repeat(4, 25%); /*Repete 4 colunas de 25%*/
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+}

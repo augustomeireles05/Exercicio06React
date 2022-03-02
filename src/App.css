@@ -1,0 +1,15 @@
+* {
+  font-family:arial,sans-serif;
+}
+
+body {
+  /* background: linear-gradient(180deg, rgba(0,25,54,1) 0%, rgba(12,0,89,1) 100%); */
+  /* background: linear-gradient(180deg, rgba(0,25,54,1) 0%, rgba(15,13,26,1) 100%); */
+  background: linear-gradient(180deg, rgba(0,25,54,1) 0%, rgba(126,126,126,0.996039603960396) 100%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  height:100vh; /*Deixa o conteúdo centralizado verticalmente.*/
+  align-items: center;
+
+}

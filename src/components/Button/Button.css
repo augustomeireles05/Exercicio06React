@@ -1,0 +1,38 @@
+:root {
+    --bg-button: #f0f0f0; /* Criei uma variavel chamada bg no react */
+    --border-button: solid 1px #888; /* Criei uma variavel chamada border no react */
+    --bg-operation: #fa8231;
+    --bg-operation-active: #fa8131cc;
+    --bg-button-active: #ccc;
+}
+
+.button {
+    font-size: 1.5em;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+}
+
+.button:active {
+    background-color: var(--bg-button-active);
+}
+
+.button.operation {
+    background-color: var(--bg-operation);
+    color: #fff;
+
+}
+
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
+}
+
+.button.operation:active {
+    background-color: var(--bg-operation-active);
+}
